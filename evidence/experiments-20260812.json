@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0.0",
+  "observedAt": "2026-08-12T06:31:18Z",
+  "pages": {
+    "repository": "aarusso-nyx/devai-release-experiment-20260811",
+    "initialMode": "legacy",
+    "legacyModeRun": {
+      "id": 31553446004,
+      "conclusion": "failure",
+      "jobStartedAt": "2026-08-12T01:23:40Z",
+      "jobCompletedAt": "2026-08-12T01:23:41Z",
+      "recordedSteps": 0
+    },
+    "workflowModeRun": {
+      "id": 31553480810,
+      "conclusion": "success",
+      "jobStartedAt": "2026-08-12T01:24:21Z",
+      "jobCompletedAt": "2026-08-12T01:24:32Z",
+      "artifactId": 9125103548,
+      "deployPagesReported": "success"
+    },
+    "restoredMode": "legacy",
+    "conclusion": "Actions deployment succeeded only after selecting workflow mode; the original legacy-mode incompatibility claim is confirmed."
+  },
+  "packageRepublication": {
+    "package": "@aarusso-nyx/devai-republication-probe",
+    "version": "0.0.0-exp.20260812-final",
+    "tarballSha256": "346928eca500021d84d1b5150e612cb34f141e94efae0c6a05fa8dc504426de6",
+    "npmShasum": "ad4329622a32c0a5a97fa35bc069c490f4d47424",
+    "npmIntegrity": "sha512-f8puzum8YNyAz8JWkRYq0DAx93H/5cKXgE6l8o1VqM/NP6sj5KaoAp5R3lFpNCfib468kKYeOyPpDZC8T1eozw==",
+    "firstVersionId": 1123904964,
+    "deleteApiVerification": "version endpoint absent after deletion",
+    "replacementVersionId": 1123905035,
+    "sameVersion": true,
+    "sameBytes": true,
+    "conclusion": "A deleted GitHub Packages version can be republished under the same version; the package registry is a convenience mirror, not the canonical immutable identity."
+  }
+}
