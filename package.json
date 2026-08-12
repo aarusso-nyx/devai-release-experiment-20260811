@@ -1,0 +1,10 @@
+{
+  "name": "@aarusso-nyx/devai-republication-probe",
+  "version": "0.0.0-exp.20260811",
+  "description": "Disposable GitHub Packages delete and republish probe",
+  "repository": "https://github.com/aarusso-nyx/devai-release-experiment-20260811",
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
